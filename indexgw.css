@@ -271,15 +271,17 @@ footer div ul {
 }
 
 .producttext {
-    margin-left: 25px;
+    margin-left: 10px;
+    color:black;
 }
 
 div.scrollgallery2 {
-    width: 375px;
+    width: 355px;
     height: 325px;
     overflow: auto;
     white-space: nowrap;
     margin-left: 20px;
+    font-size: 15px;
 }
 
 div.scrollgallery2::-webkit-scrollbar {
@@ -292,6 +294,49 @@ div.scrollgallery2 a{
 
 .productpic {
     height: 215px;
+    border-radius: 5px;
+}
+
+.productpic:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.productbox {
+    display: inline-block;
+    width: 134px;
+    padding: 5px;
+    text-align: center;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+body div div i {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.voresproces {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.vppic {
+    align-items: center;
+}
+
+.readmore {
+    color:orange;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blankbox {
+    display: flex;
+    height: 100px;
 }

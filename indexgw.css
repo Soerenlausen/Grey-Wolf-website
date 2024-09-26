@@ -90,12 +90,15 @@ button[type="submit"]:hover {
 
 .heropic {
     width:375px;
+    height: 375px;;
 }
 
 div.scrollgallery {
     width: 375px;
-    margin-top: 140px;
-    overflow: auto;
+    height: 365px;
+    margin-top: 170px;
+    overflow-x: auto;
+    overflow-y: hidden;
     white-space: nowrap;
 }
 
@@ -108,12 +111,40 @@ div.scrollgallery a{
     
 }
 
+.herobox {
+    display: inline-block;
+    width: 370px;
+    height: 340px;
+}
+
 .pic1text {
-    position: absolute;
+    position: relative;
+    z-index: 1;
+    margin-top: 215px;
+    top: -570px;
+    padding-left: 20px;
+    font-size: 21px;
+    color: white;
+    text-shadow: 1px 1px 12px black;
+}
+
+.pic2text {
+    position: relative;
     z-index: 1;
     margin-top: 185px;
-    top: 15px;
-    left: 20px;
+    top: -530px;
+    padding-left: 20PX;
+    font-size: 21px;
+    color: black;
+    text-align: center;
+}
+
+.pic3text {
+    position: relative;
+    z-index: 1;
+    margin-top: 185px;
+    top: -350px;
+    padding-left: 40px;
     font-size: 21px;
     color: white;
     text-shadow: 1px 1px 12px black;
@@ -160,25 +191,46 @@ footer div ul {
     height: 23px;
 }
 
-.CTA {
+.CTAproces {
     display: inline-block;
-    width: 124px;
-    position: absolute;
+    width: 110px;
+    position: relative;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: orange;
-    color: black;
-    padding: 5px;
-    border-radius: 15px;
-    top:435px;
-    left:205px;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    top:-515px;
+    left:130px;
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+.CTAproces:hover {
+    background-color: rgb(240, 155, 0);
+}
+
+.CTA2 {
+    display: inline-block;
+    width: 110px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: #81BC6E;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    top:-335px;
+    left:40px;
     box-shadow: 1px 1px 8px black;
     transition: 0.5s;
     font-size: 19px;
 }
 
-.CTA:hover {
+.CTA2:hover {
     background-color: rgb(240, 155, 0);
 }
 
@@ -203,8 +255,8 @@ footer div ul {
     background-color: #536F4A;
     color: black;
     padding: 5px;
-    border-radius: 1rem;
-    top:540px;
+    border-radius: 5px;
+    top:570px;
     left:210px;
     transition: 0.5s;
     font-size: 19px;
@@ -221,8 +273,8 @@ footer div ul {
     background-color: #536F4A;
     color: black;
     padding: 5px;
-    border-radius: 1rem;
-    top:540px;
+    border-radius: 5px;
+    top:570px;
     left:30px;
     transition: 0.5s;
     font-size: 19px;

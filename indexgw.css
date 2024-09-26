@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+header{
+    position: absolute;
+    z-index: 100;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.containerheader {
+    display: flex;
+    width: 335px;
+    height: 107px;
+    background-color: #3e4d3a;
+    position: fixed;
+    flex-wrap: wrap;
+    padding: 20px;
+    top: 38px;
+    
+}
+
+.boxtop {
+    height: 38px;
+    width: 375px;
+    background-color: #2e3a2b;
+    position: fixed;
+    top: 0;
+}
+
+.logo img {
+    height:50px;
+}
+
+.box {
+    color:white;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.boxright {
+    margin-left: auto;
+    margin-right: 0;
+    padding-top: 12px;
+}
+
+.searchbar {
+    padding-top: 3px;
+}
+
+input[type="search"] {
+    height:40px;
+    width: 275px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: white;
+    margin-top: 10px;
+    border: none;
+    padding-left: 15px;
+    outline: none;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    border-radius: 0px 15px 15px 0px;
+    height: 40px;
+    width:40px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    position: relative;
+    left: -5px;
+    transition: 0.3s;
+    font-size: 16px;
+    color:#2e3a2b;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.heropic {
+    width:375px;
+}
+
+div.scrollgallery {
+    width: 375px;
+    margin-top: 140px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollgallery::-webkit-scrollbar {
+    display: none;
+}
+
+div.scrollgallery a{
+    display: inline-block;
+    
+}
+
+.pic1text {
+    position: absolute;
+    z-index: 1;
+    margin-top: 185px;
+    top: 15px;
+    left: 20px;
+    font-size: 21px;
+    color: white;
+    text-shadow: 1px 1px 12px black;
+}
+
+body div p b {
+    font-size: 34px;
+}
+
+.footercontainer {
+    display: flex;
+    width: 335px;
+    height: 320px;
+    background-color: #3e4d3a;
+    padding: 20px;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 40px;
+    color:white;
+}
+
+footer div ul {
+    list-style: none;
+}
+
+.followus {
+    display: inline-block;
+    width: 180px;
+    justify-content: space-evenly;
+}
+
+.smlogo {
+    width: 50px;
+    border-radius: 1rem;
+}
+
+.payoptions {
+    display: inline-block;
+    width: 180px;
+    justify-content: space-evenly;
+}
+
+.paylogo {
+    height: 23px;
+}
+
+.CTA {
+    display: inline-block;
+    width: 124px;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    top:435px;
+    left:205px;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+    font-size: 19px;
+}
+
+.CTA:hover {
+    background-color: rgb(240, 155, 0);
+}
+
+.genderchoose {
+    display:flex;
+    width: 335px;
+    margin: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.men {
+    display: inline-block;
+    width: 124px;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: #536F4A;
+    color: black;
+    padding: 5px;
+    border-radius: 1rem;
+    top:540px;
+    left:210px;
+    transition: 0.5s;
+    font-size: 19px;
+    color: white;
+}
+
+.women {
+    display: inline-block;
+    width: 124px;
+    position: absolute;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: #536F4A;
+    color: black;
+    padding: 5px;
+    border-radius: 1rem;
+    top:540px;
+    left:30px;
+    transition: 0.5s;
+    font-size: 19px;
+    color: white;
+}
+
+.menwomen {
+    width: 158px;
+    height: 320px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menwomen:hover {
+    box-shadow: 1px 1px 5px black;
+    opacity: 90%;
+}
+
+.women:hover {
+    box-shadow: 1px 1px 5px black;
+    background-color: #3e4d3a;
+}
+
+.men:hover {
+    box-shadow: 1px 1px 5px black;
+    background-color: #3e4d3a;
+}
+
+.textbox {
+    display: flex;
+    width: 375px;
+}
+
+.headline {
+    margin-left: 20px;
+    margin-right: auto;
+    font-size: 24px;
+    text-align: center;
+}
+
+.popproducttext {
+    float:left;
+    font-size: 19px;
+    width: 335px;
+    padding: 20px;
+    text-align: center;
+}
+
+.producttext {
+    margin-left: 25px;
+}
+
+div.scrollgallery2 {
+    width: 375px;
+    height: 325px;
+    overflow: auto;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+div.scrollgallery2::-webkit-scrollbar {
+    display: none;
+}
+
+div.scrollgallery2 a{
+    display: inline-block;
+}
+
+.productpic {
+    height: 215px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

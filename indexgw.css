@@ -198,7 +198,7 @@ footer div ul {
     z-index: 1;
     border: none;
     cursor: pointer;
-    background-color: orange;
+    background-color: F2921D;
     color: white;
     padding: 7px;
     border-radius: 5px;
@@ -380,7 +380,7 @@ body div div i {
 }
 
 .readmore {
-    color:orange;
+    color:F2921D;
     display: block;
     margin-left: auto;
     margin-right: auto;

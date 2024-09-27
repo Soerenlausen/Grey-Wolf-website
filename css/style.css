@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     text-decoration: none;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
@@ -17,8 +17,8 @@ body {
 
 .containerheader {
     display: flex;
-    width: 335px;
-    height: 107px;
+    width: 375px;
+    height: 147px;
     background-color: #3e4d3a;
     position: fixed;
     flex-wrap: wrap;
@@ -156,8 +156,8 @@ body div p b {
 
 .footercontainer {
     display: flex;
-    width: 335px;
-    height: 320px;
+    width: 375px;
+    height: 360px;
     background-color: #3e4d3a;
     padding: 20px;
     font-size: 15px;

@@ -17,32 +17,32 @@ body {
 
 .containerheader {
     display: flex;
-    width: 375px;
-    height: 147px;
+    width: 100%;
+    height: 9.188em;
     background-color: #3e4d3a;
     position: fixed;
     flex-wrap: wrap;
-    padding: 20px;
-    top: 38px;
+    padding: 1.25em;
+    top: 2.375em;
     
 }
 
 .boxtop {
-    height: 38px;
-    width: 375px;
+    height: 2.375em;
+    width: 100%;
     background-color: #2e3a2b;
     position: fixed;
     top: 0;
 }
 
 .logo img {
-    height:50px;
+    height: 3.125em;
 }
 
 .box {
     color:white;
     font-size: 1.5em;
-    padding: 5px;
+    padding: 0.313em;
     margin-left: auto;
     margin-right: 0;
 }
@@ -50,35 +50,38 @@ body {
 .boxright {
     margin-left: auto;
     margin-right: 0;
-    padding-top: 12px;
+    padding-top: 0.75em;
 }
 
 .searchbar {
-    padding-top: 3px;
+    padding-top: 0.188em;
+    width: 100%;
+    padding-left: 9vw;
 }
 
 input[type="search"] {
-    height:40px;
-    width: 290px;
+    height: 2.5em;
+    width: 80%;
     border-radius: 15px 0px 0px 15px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0.625em;
     border: none;
-    padding-left: 15px;
+    padding-left: 0.938em;
     outline: none;
     font-size: 1em;
 }
 
 button[type="submit"] {
     border-radius: 0px 15px 15px 0px;
-    height: 40px;
-    width:40px;
+    height: 2.5em;
+    width: 100%;
+    max-width: 2.5em;
     cursor: pointer;
     background-color: white;
     border: none;
     position: relative;
-    top: 1px;
-    left: -5px;
+    top: 0.016em;
+    left: -0.313em;
     transition: 0.3s;
     font-size: 1em;
     color:#2e3a2b;
@@ -89,15 +92,15 @@ button[type="submit"]:hover {
 }
 
 .heropic {
-    width:375px;
-    height: 375px;
+    width: 100%;
+    height: 23.438em;
     object-fit: cover;
 }
 
 div.scrollgallery {
-    width: 375px;
-    height: 385px;
-    margin-top: 155px;
+    width: 100%;
+    height: 23.438em;
+    margin-top: 9.438em;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -114,16 +117,16 @@ div.scrollgallery a{
 
 .herobox {
     display: inline-block;
-    width: 370px;
-    height: 340px;
+    width: 23em;
+    height: 21.25em;
 }
 
 .pic1text {
     position: relative;
     z-index: 1;
-    margin-top: 215px;
-    top: -545px;
-    padding-left: 20px;
+    margin-top: 13.438em;
+    top: -600px;
+    padding-left: 1.25em;
     font-size: 1.313em;
     color: white;
     text-shadow: 1px 1px 12px black;
@@ -132,9 +135,8 @@ div.scrollgallery a{
 .pic2text {
     position: relative;
     z-index: 1;
-    margin-top: 185px;
-    top: -530px;
-    padding-left: 20PX;
+    margin-top: 11.563em;
+    top: -590px;
     font-size: 1.313em;
     color: black;
     text-align: center;
@@ -143,27 +145,23 @@ div.scrollgallery a{
 .pic3text {
     position: relative;
     z-index: 1;
-    margin-top: 185px;
-    top: -350px;
-    padding-left: 30px;
+    margin-top: 11.563em;
+    top: -420px;
+    padding-left: 1.875em;
     font-size: 1.313em;
     color: white;
     text-shadow: 1px 1px 12px black;
 }
 
-body div p b {
-    font-size: 34px;
-}
-
 .footercontainer {
     display: flex;
-    width: 375px;
-    height: 360px;
+    width: 100%;
+    height: 22.5em;
     background-color: #3e4d3a;
-    padding: 20px;
+    padding: 1.25em;
     font-size: 0.938em;
     column-count: 2;
-    column-gap: 40px;
+    column-gap: 2.5em;
     color:white;
 }
 
@@ -173,38 +171,38 @@ footer div ul {
 
 .followus {
     display: inline-block;
-    width: 180px;
+    width: 11.25em;
     justify-content: space-evenly;
 }
 
 .smlogo {
-    width: 50px;
+    width: 3.125em;
     border-radius: 1rem;
 }
 
 .payoptions {
     display: inline-block;
-    width: 180px;
+    width: 11.25em;
     justify-content: space-evenly;
 }
 
 .paylogo {
-    height: 23px;
+    height: 1.438em;
 }
 
 .CTAproces {
     display: inline-block;
-    width: 110px;
+    width: 6.875em;
     position: relative;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #F2921D;
     color: white;
-    padding: 7px;
+    padding: 0.438em;
     border-radius: 5px;
-    top:-515px;
-    left:130px;
+    top: -30em;
+    left: 6.475em;
     transition: 0.5s;
     font-size: 1.188em;
 }
@@ -215,17 +213,17 @@ footer div ul {
 
 .CTA2 {
     display: inline-block;
-    width: 110px;
+    width: 6.875em;
     position: relative;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #81BC6E;
     color: white;
-    padding: 5px;
+    padding: 0.313em;
     border-radius: 5px;
-    top: -340px;
-    left: 30px;
+    top: -21.7em;
+    left: 2.125em;
     box-shadow: 1px 1px 8px black;
     transition: 0.5s;
     font-size: 1.188em;
@@ -237,17 +235,17 @@ footer div ul {
 
 .movetonext {
     display: inline-block;
-    width: 165px;
+    width: 10.313em;
     position: relative;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: rgba(62, 77, 58, 0.7);
     color: white;
-    padding: 5px;
+    padding: 0.313em;
     border-radius: 10px;
-    top:-350px;
-    left:190px;
+    top: -21.875em;
+    left: 11.875em;
     box-shadow: 1px 1px 8px black;
     transition: 0.5s;
     font-size: 0.938em;
@@ -255,28 +253,28 @@ footer div ul {
 
 .genderchoose {
     display: flex;
-    width: 335px;
-    margin: 20px;
+    width: 20.938;
+    margin: 1.25em;
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 1.25em;
     justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 1.875em;
+    padding-bottom: 1.25em;
 }
 
 .men {
     display: inline-block;
-    width: 124px;
+    width: 7.75em;
     position: absolute;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #536F4A;
     color: black;
-    padding: 5px;
+    padding: 0.313em;
     border-radius: 5px;
-    top:570px;
-    left:210px;
+    top: 29.325em;
+    left: 13.125em;
     transition: 0.5s;
     font-size: 1.188em;
     color: white;
@@ -284,25 +282,25 @@ footer div ul {
 
 .women {
     display: inline-block;
-    width: 124px;
+    width: 7.75em;
     position: absolute;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #536F4A;
     color: black;
-    padding: 5px;
+    padding: 0.313em;
     border-radius: 5px;
-    top:570px;
-    left:30px;
+    top: 29.325em;
+    left: 1.875em;
     transition: 0.5s;
     font-size: 1.188em;
     color: white;
 }
 
 .menwomen {
-    width: 158px;
-    height: 320px;
+    width: 9.875em;
+    height: 20em;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -324,11 +322,11 @@ footer div ul {
 
 .textbox {
     display: flex;
-    width: 375px;
+    width: 100%;
 }
 
 .headline {
-    margin-left: 20px;
+    margin-left: 1.25em;
     margin-right: auto;
     font-size: 1.5em;
     text-align: center;
@@ -338,21 +336,21 @@ footer div ul {
     float:left;
     font-size: 1.188em;
     width: 32.188em;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
 }
 
 .producttext {
-    margin-left: 10px;
+    margin-left: 0.625em;
     color:black;
 }
 
 div.scrollgallery2 {
-    width: 355px;
-    height: 325px;
+    width: 100%;
+    height: 20.313em;
     overflow: auto;
     white-space: nowrap;
-    margin-left: 20px;
+    margin-left: 1.25em;
     font-size: 0.938em;
 }
 
@@ -365,7 +363,7 @@ div.scrollgallery2 a{
 }
 
 .productpic {
-    height: 215px;
+    height: 13.438em;
     border-radius: 5px;
 }
 
@@ -375,11 +373,11 @@ div.scrollgallery2 a{
 
 .productbox {
     display: inline-block;
-    width: 134px;
-    padding: 5px;
+    width: 8.375em;
+    padding: 0.313em;
     text-align: center;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 body div div i {
@@ -388,14 +386,16 @@ body div div i {
 }
 
 .voresproces {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float:left;
     font-size: 1.5em;
+    width: 100%;
+    padding: 1.25em;
+    text-align: center;
 }
 
 .vppic {
-    align-items: center;
+    margin-left: 200px;
+    margin-right: 7vw;
 }
 
 .readmore {
@@ -410,5 +410,5 @@ body div div i {
 
 .blankbox {
     display: flex;
-    height: 100px;
+    height: 6.25em;
 }

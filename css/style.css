@@ -59,7 +59,7 @@ body {
 
 input[type="search"] {
     height:40px;
-    width: 275px;
+    width: 290px;
     border-radius: 15px 0px 0px 15px;
     background-color: white;
     margin-top: 10px;
@@ -90,13 +90,14 @@ button[type="submit"]:hover {
 
 .heropic {
     width:375px;
-    height: 375px;;
+    height: 375px;
+    object-fit: cover;
 }
 
 div.scrollgallery {
     width: 375px;
-    height: 365px;
-    margin-top: 170px;
+    height: 385px;
+    margin-top: 155px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -121,7 +122,7 @@ div.scrollgallery a{
     position: relative;
     z-index: 1;
     margin-top: 215px;
-    top: -570px;
+    top: -545px;
     padding-left: 20px;
     font-size: 21px;
     color: white;
@@ -144,7 +145,7 @@ div.scrollgallery a{
     z-index: 1;
     margin-top: 185px;
     top: -350px;
-    padding-left: 40px;
+    padding-left: 30px;
     font-size: 21px;
     color: white;
     text-shadow: 1px 1px 12px black;
@@ -221,10 +222,10 @@ footer div ul {
     cursor: pointer;
     background-color: #81BC6E;
     color: white;
-    padding: 7px;
+    padding: 5px;
     border-radius: 5px;
-    top:-335px;
-    left:40px;
+    top: -340px;
+    left: 30px;
     box-shadow: 1px 1px 8px black;
     transition: 0.5s;
     font-size: 19px;
@@ -232,6 +233,24 @@ footer div ul {
 
 .CTA2:hover {
     background-color: rgb(240, 155, 0);
+}
+
+.movetonext {
+    display: inline-block;
+    width: 165px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(62, 77, 58, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    top:-350px;
+    left:190px;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+    font-size: 15px;
 }
 
 .genderchoose {

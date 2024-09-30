@@ -105,8 +105,8 @@ div.scrollgallery {
     min-width: max-content;
     height: 23.438em;
     margin-top: 9.438em;
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow-x: visible;
+    overflow-y: clip;
     white-space: nowrap;
     justify-content: center;
     background-color: #3e4d3a;
@@ -280,6 +280,8 @@ footer div ul {
     padding-top: 1.875em;
     padding-bottom: 1.25em;
     justify-content: center;
+    position: sticky;
+    left: 20px;
 }
 
 .genderbox {
@@ -304,7 +306,7 @@ footer div ul {
     padding-right: 2em;
     border-radius: 5px;
     bottom: 17.8em;
-    left: 0.8em;
+    left: 0.6em;
     transition: 0.5s;
     font-size: 1.188em;
     color: white;
@@ -381,7 +383,7 @@ div.scrollgallery2 {
     width: 100%;
     min-width: max-content;
     justify-content: center;
-    overflow: auto;
+    overflow: visible;
     white-space: nowrap;
     padding-left: 1.25em;
     font-size: 0.938em;

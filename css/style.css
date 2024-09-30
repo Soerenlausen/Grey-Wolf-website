@@ -54,9 +54,11 @@ body {
 }
 
 .searchbar {
-    padding-top: 0.188em;
     width: 100%;
-    padding-left: 9vw;
+    justify-content: center;
+    padding-top: 0.188em;
+    padding-left: 13vw;
+    padding-right: auto;
 }
 
 input[type="search"] {
@@ -80,7 +82,7 @@ button[type="submit"] {
     background-color: white;
     border: none;
     position: relative;
-    top: 0.1em;
+    top: 0.05em;
     left: -0.313em;
     transition: 0.3s;
     font-size: 1em;
@@ -117,7 +119,7 @@ div.scrollgallery::-webkit-scrollbar {
 
 .herobox {
     display: inline-block;
-    max-width: 100%;
+    max-width: 375px;
     max-height: 90%;
 }
 
@@ -404,7 +406,7 @@ div.scrollgallery2 a{
 
 .productbox {
     display: inline-block;
-    width: 8.375em;
+    width: 9.375em;
     padding: 0.313em;
     text-align: center;
     padding-left: 0.5em;

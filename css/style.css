@@ -190,19 +190,18 @@ footer div ul {
 
 .followus {
     display: inline-block;
-    width: 11.25em;
+    width: auto;
     justify-content: space-evenly;
-}
-
-.smlogo {
-    width: 3.125em;
-    border-radius: 1rem;
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
 
 .payoptions {
     display: inline-block;
     width: 11.25em;
     justify-content: space-evenly;
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
 
 .paylogo {

@@ -24,7 +24,6 @@ body {
     flex-wrap: wrap;
     padding: 1.25em;
     top: 2.375em;
-    
 }
 
 .boxtop {
@@ -134,7 +133,7 @@ div.scrollgallery::-webkit-scrollbar {
     color: white;
     text-shadow: 1px 1px 12px black;
 }
-
+  
 .pic2text {
     position: relative;
     z-index: 1;

@@ -100,13 +100,12 @@ button[type="submit"]:hover {
 }
 
 div.scrollgallery {
-    display: flex;
+    display: grid inline-block;
     width: 100%;
-    min-width: max-content;
-    height: 23.438em;
+    height: 23em;
     margin-top: 9.438em;
-    overflow-x: visible;
     overflow-y: clip;
+    overflow-x: scroll;
     white-space: nowrap;
     justify-content: center;
     background-color: #3e4d3a;
@@ -378,11 +377,10 @@ footer div ul {
 }
 
 div.scrollgallery2 {
-    display: flex;
+    display: grid inline-block;
     width: 100%;
-    min-width: max-content;
     justify-content: center;
-    overflow: visible;
+    overflow: scroll;
     white-space: nowrap;
     padding-left: 1.25em;
     font-size: 0.938em;

@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Plus Jakarta Sans'
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 header{
@@ -17,32 +17,31 @@ body {
 
 .containerheader {
     display: flex;
-    width: 335px;
-    height: 107px;
+    width: 100%;
+    height: 9.188em;
     background-color: #3e4d3a;
     position: fixed;
     flex-wrap: wrap;
-    padding: 20px;
-    top: 38px;
-    
+    padding: 1.25em;
+    top: 2.375em;
 }
 
 .boxtop {
-    height: 38px;
-    width: 375px;
+    height: 2.375em;
+    width: 100%;
     background-color: #2e3a2b;
     position: fixed;
     top: 0;
 }
 
 .logo img {
-    height:50px;
+    height: 3.125em;
 }
 
 .box {
     color:white;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 1.2em;
+    padding: 0.313em;
     margin-left: auto;
     margin-right: 0;
 }
@@ -50,36 +49,42 @@ body {
 .boxright {
     margin-left: auto;
     margin-right: 0;
-    padding-top: 12px;
+    padding-top: 1.2em;
 }
 
 .searchbar {
-    padding-top: 3px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 0.188em;
+    padding-left: 12.5vw;
+    padding-right: auto;
 }
 
 input[type="search"] {
-    height:40px;
-    width: 275px;
+    height: 2.5em;
+    width: 80%;
     border-radius: 15px 0px 0px 15px;
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0.625em;
     border: none;
-    padding-left: 15px;
+    padding-left: 0.938em;
     outline: none;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 button[type="submit"] {
     border-radius: 0px 15px 15px 0px;
-    height: 40px;
-    width:40px;
+    height: 2.5em;
+    width: 100%;
+    max-width: 2.5em;
     cursor: pointer;
     background-color: white;
     border: none;
     position: relative;
-    left: -5px;
+    top: 0.1em;
+    left: -0.313em;
     transition: 0.3s;
-    font-size: 16px;
+    font-size: 1em;
     color:#2e3a2b;
 }
 
@@ -88,149 +93,256 @@ button[type="submit"]:hover {
 }
 
 .heropic {
-    width:375px;
+    width: 100%;
+    min-width: 375px;
+    height: 23em;
+    object-fit: cover;
 }
 
 div.scrollgallery {
-    width: 375px;
-    margin-top: 140px;
-    overflow: auto;
+    display: grid inline;
+    grid-auto-flow: column;
+    width: 100%;
+    height: 22.5em;
+    margin-top: 11em;
+    margin-bottom: 1.5em;
+    overflow-y: clip;
+    overflow-x: scroll;
     white-space: nowrap;
+    background-color: #3e4d3a;
+    border-bottom: 5px solid #3e4d3a;
+    justify-content: center left;
 }
 
 div.scrollgallery::-webkit-scrollbar {
     display: none;
 }
 
-div.scrollgallery a{
-    display: inline-block;
-    
+.herobox {
+    display: inline-block;;
+    width: 100%;
 }
 
 .pic1text {
-    position: absolute;
+    position: relative;
     z-index: 1;
-    margin-top: 185px;
-    top: 15px;
-    left: 20px;
-    font-size: 21px;
+    margin-top: 13.438em;
+    bottom: 620px;
+    padding-left: 1.25em;
+    font-size: 1.313em;
+    color: white;
+    text-shadow: 1px 1px 12px black;
+}
+  
+.pic2text {
+    position: relative;
+    z-index: 1;
+    margin-top: 11.563em;
+    bottom: 575px;
+    font-size: 1.313em;
+    color: black;
+    text-align: center;
+}
+
+.pic3text {
+    position: relative;
+    z-index: 1;
+    margin-top: 11.563em;
+    bottom: 400px;
+    padding-left: 1.875em;
+    font-size: 1.313em;
     color: white;
     text-shadow: 1px 1px 12px black;
 }
 
-body div p b {
-    font-size: 34px;
-}
-
 .footercontainer {
     display: flex;
-    width: 335px;
-    height: 320px;
+    width: 100%;
     background-color: #3e4d3a;
-    padding: 20px;
-    font-size: 15px;
     column-count: 2;
-    column-gap: 40px;
+    justify-content: center;
+    padding-top: 1.25em;
+    line-height: 1.5em;
+}
+
+.footerbox {
+    display: flex;
+    
+    font-size: 0.938em;
     color:white;
+    flex-wrap: wrap;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
 }
 
 footer div ul {
     list-style: none;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    padding-bottom: 1.25em ;
+}
+
+.footerlogo {
+    display: flex;
+    height: 3em;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 1.25em;
+    justify-content: center;
 }
 
 .followus {
     display: inline-block;
-    width: 180px;
+    width: auto;
     justify-content: space-evenly;
-}
-
-.smlogo {
-    width: 50px;
-    border-radius: 1rem;
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
 
 .payoptions {
     display: inline-block;
-    width: 180px;
     justify-content: space-evenly;
+    font-size: 1.5em;
+    padding-top: 0.5em;
 }
 
-.paylogo {
-    height: 23px;
+div i {
+    padding-right: 0.1em;
 }
 
-.CTA {
+.CTAproces {
     display: inline-block;
-    width: 124px;
-    position: absolute;
+    width: 6.875em;
+    position: relative;
     z-index: 1;
     border: none;
     cursor: pointer;
-    background-color: orange;
-    color: black;
-    padding: 5px;
-    border-radius: 15px;
-    top:435px;
-    left:205px;
-    box-shadow: 1px 1px 8px black;
+    background-color: #F2921D;
+    color: white;
+    padding: 0.438em;
+    border-radius: 5px;
+    bottom: 29.7em;
     transition: 0.5s;
-    font-size: 19px;
+    font-size: 1.188em;
 }
 
-.CTA:hover {
+.CTAproces:hover {
+    background-color: #81BC6E;
+}
+
+.buttonalign {
+    text-align: center;
+}
+
+.CTA2 {
+    display: inline-block;
+    width: 6.875em;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: #81BC6E;
+    color: white;
+    padding: 0.313em;
+    border-radius: 5px;
+    bottom: 20.2em;
+    left: 2.125em;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+    font-size: 1.188em;
+}
+
+.CTA2:hover {
     background-color: rgb(240, 155, 0);
 }
 
+.movetonext {
+    display: inline-block;
+    width: 10.313em;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(62, 77, 58, 0.7);
+    color: white;
+    padding: 0.313em;
+    border-radius: 10px;
+    bottom: 28em;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+    font-size: 0.938em;
+    float: right;
+    margin-right: 2em;
+}
+
 .genderchoose {
-    display:flex;
-    width: 335px;
-    margin: 20px;
+    display: flex;
+    width: 100%;
+    min-width: max-content;
     column-count: 2;
-    column-gap: 20px;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    column-gap: 2.9em;
+    padding-top: 1.875em;
+    padding-bottom: 1.25em;
+    justify-content: center;
+    position: sticky;
+    left: 20px;
+}
+
+.genderbox {
+    display: inline-block;
+    width: 100%;
+    max-width: 9.875em;
+    max-height: 90%;
 }
 
 .men {
     display: inline-block;
-    width: 124px;
-    position: absolute;
+    position: relative;
+    max-height: fit-content;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #536F4A;
     color: black;
-    padding: 5px;
-    border-radius: 1rem;
-    top:540px;
-    left:210px;
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    bottom: 17.8em;
+    left: 0.6em;
     transition: 0.5s;
-    font-size: 19px;
+    font-size: 1.188em;
     color: white;
 }
 
 .women {
     display: inline-block;
-    width: 124px;
-    position: absolute;
+    position: relative;
+    max-height: fit-content;
     z-index: 1;
     border: none;
     cursor: pointer;
     background-color: #536F4A;
     color: black;
-    padding: 5px;
-    border-radius: 1rem;
-    top:540px;
-    left:30px;
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    bottom: 17.8em;
+    left: 0.4em;
     transition: 0.5s;
-    font-size: 19px;
+    font-size: 1.188em;
     color: white;
 }
 
 .menwomen {
-    width: 158px;
-    height: 320px;
+    width: 9.875em;
+    height: 20em;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -252,34 +364,36 @@ footer div ul {
 
 .textbox {
     display: flex;
-    width: 375px;
+    width: 100%;
+    min-width: max-content;
+    justify-content: center;
 }
 
 .headline {
-    margin-left: 20px;
-    margin-right: auto;
-    font-size: 24px;
+    font-size: 1.5em;
     text-align: center;
 }
 
 .popproducttext {
-    float:left;
-    font-size: 19px;
-    width: 335px;
-    padding: 20px;
+    font-size: 1.188em;
+    padding: 1.25em;
     text-align: center;
 }
 
 .producttext {
-    margin-left: 25px;
+    margin-left: 0.625em;
+    color:black;
 }
 
 div.scrollgallery2 {
-    width: 375px;
-    height: 325px;
-    overflow: auto;
+    display: grid inline;
+    grid-auto-flow: column;
+    width: 100%;
+    overflow: scroll;
     white-space: nowrap;
-    margin-left: 20px;
+    padding-left: 1.25em;
+    font-size: 0.938em;
+    justify-content: space-around;
 }
 
 div.scrollgallery2::-webkit-scrollbar {
@@ -291,7 +405,52 @@ div.scrollgallery2 a{
 }
 
 .productpic {
-    height: 215px;
-    padding-left: 8px;
-    padding-right: 8px;
+    height: 13.438em;
+    border-radius: 5px;
+}
+
+.productpic:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
+.productbox {
+    display: inline-block;
+    width: 9.375em;
+    padding: 0.313em;
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+body div div i {
+    font-weight: bold;
+    font-size: 1.313em;
+}
+
+.voresproces {
+    float:left;
+    font-size: 1.5em;
+    width: 100%;
+    padding-top: 1.25em;
+    text-align: center;
+}
+
+.vppic {
+    display: flex;
+    justify-content: center;
+}
+
+.readmore {
+    color:#F2921D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.125em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blankbox {
+    display: flex;
+    height: 6.25em;
 }

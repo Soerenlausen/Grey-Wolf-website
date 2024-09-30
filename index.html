@@ -4,29 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grey Wolf</title>
-    <link rel="icon" type="image/x-icon" href="img/gwlogo-dark-green.svg">
-    <link href="css/style.css" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-    </style>
+    <link rel="icon" type="image/x-icon" href="img/Dark Green GW Logo.svg">
     <script src="https://kit.fontawesome.com/f2e73786ec.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
 </head>
-
-
-<!-- HEADER -->
+<body>
 <header>
     <div class="boxtop"></div>
     <div class="containerheader">
-        <a class="logo" href="index.html">
-            <img src="img/gwlogo-text.svg" alt="Grey Wolf logo">
+        <a class="logo" href="http://127.0.0.1:5500/index.html?">
+            <img src="img/greywolflogo.svg" alt="Grey Wolf logo">
         </a>
     <div class="boxright">
-        <a href="https://i.imgflip.com/5t1kna.jpg" class="box">
-            <img src="img/ikon-profil.svg" alt="profil"></a>
-        <a href="https://i.imgflip.com/5t1kna.jpg" class="box">
-            <img src="img/ikon-kurv.svg" alt="kurv"></a>
-        <a href="https://i.imgflip.com/5t1kna.jpg" class="box">
-            <img src="img/ikon-burgermenu.svg" alt="burgermenu"></a>
+        <a class="box"><span alt="Profil"><i class="fa-solid fa-user"></i></span></a>
+        <a class="box"><span alt="Kurv"><i class="fa-solid fa-cart-shopping"></i></span></a>
+        <a href="http://google.com" class="box"><span alt="Menu"><i class="fa-solid fa-bars"></i></span></a>
     </div>
     <div class="searchbar">
         <form>
@@ -36,87 +28,131 @@
     </div>
     </div>
 </header>
-
-
-<!-- BODY -->
-<body>
-    <!--HERO-->
+<main>
     <div class="scrollgallery"> 
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/hero-bål-billede.png" alt="bål billede" class="heropic"></a>
-        <h6 class="pic1text"><b><span style="color:#81BC6E">Recycle</span> it</b><br> Wear the <span style="color:orange">change</span></h6>
-        <button class="CTA">Vis Alt</button>
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/hero-telt-billede.png" alt="telt billede" class="heropic"></a>
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/hero-tøj-billede.png" alt="Tøj billede" class="heropic"></a>
+        <div class="herobox"><a><img src="img/Bål billede.png" alt="bål billede" class="heropic"></a>
+            <h6 class="pic1text"><b><span style="font-size: 1.75em;"><span style="color:#81BC6E">Recycle</span> it</span></b><br> Wear the <span style="color:#F2921D">change</span></h6>
+            <button class="movetonext">Swipe til venstre</button></div>
+        <div class="herobox"><a><img src="img/Telt billede.png" alt="telt billede" class="heropic"></a>
+            <h6 class="pic2text"><b><span style="font-size: 1.75em;"><span style="color: #81BC6E">Recycle</span> it</span></b><br> Wear The <span style="color:#F2921D">Change</span></h6>
+            <div class="buttonalign"><button class="CTAproces">Vis Alt</button></div></div>
+        <div class="herobox"><a><img src="img/Tøj billede.png" alt="Tøj billede" class="heropic"></a>
+            <h6 class="pic3text"><b><span style="font-size: 1.75em;"><span style="color:#81BC6E">Recycle</span> it</span></b><br> Wear The <span style="color:#81BC6E">Change</span></h6>
+            <button class="CTA2">Til Dig</button></div>
     </div>
-    <!--Mænd og kvinder CTAer-->
     <div class="genderchoose">
-        <button class="women">Kvinder</button>
-        <img src="img/kvinder-cta.png" alt="kvindetøj" class="menwomen">
-        <button class="men">Mænd</button>
-        <img src="img/mænd-cta.png" alt="mandetøj" class="menwomen">
+        <div class="genderbox"><img src="img/Kvinder.png" alt="kvindetøj" class="menwomen">
+        <button class="women">Kvinder</button></div>
+        <div class="genderbox"><img src="img/Mænd.png" alt="mandetøj" class="menwomen">
+        <button class="men">Mænd</button></div>
     </div>
-    <!--produkt scrollmenu-->
     <div class="textbox">
         <h2 class="headline">Selvom vi er <span style="color:#468f2e">Bæredygtige,</span><br> har vi meget at byde på</h2>
     </div>
+    <br>
     <div class="textbox">
     <br>
-        <h5 class="popproducttext">Populære produkter:</h5>
+        <p class="popproducttext">Populære produkter:</p>
     <br>
     </div>
     <div class="scrollgallery2"> 
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/jack-jakke.png" alt="jakke1" class="productpic"></a>
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/jack-jakke.png" alt="telt billede" class="productpic"></a>
-        <a href="https://i.imgflip.com/5t1kna.jpg" alt="drakememe"><img src="img/jack-jakke.png" alt="Tøj billede" class="productpic"></a>
-        <p class="producttext"> Outdoor Jack<br> Vinterjakke</p>
-        <p class="producttext"> Outdoor James</p>
-        <p class="producttext"></p>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
     </div>
-</body>
-
-
-<!-- FOOTER -->
+    <br>
+    <div class="textbox">
+    <br>
+        <p class="popproducttext">Populære produkter:</p>
+    <br>
+    </div>
+    <div class="scrollgallery2"> 
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+        <div class="productbox"><a href="#produktside" alt="produktside"><img src="img/jakke1.png" alt="jakke1" class="productpic"></a><br>
+            <a class="producttext" href="#produktside" alt="produktside"> Outdoor Jack<br> Vinterjakke <br><br> <i>600kr,-</i></a></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="textbox">
+        <h2 class="voresproces">Vores <span style="color:#F2921D">Proces</span></h2>
+    </div>
+    <div class="textbox">
+        <p class="popproducttext">Fra telt til Grey Wolf:</p>
+    </div>
+    <div class="vppic">
+        <img src="img/Vores Proces.svg" alt="voresproces"></div>
+    </div>
+    <br>
+    <br>
+    <div class="textbox">
+    <a class="readmore">Klik for at læse mere</a>
+    </div>
+    <div class="blankbox"></div>
+</main>
 <footer>
     <div class="footercontainer">
-    <ul>
-        <li><a class="footertext" class="footertext1"><b>Navigation:</b></a></li>
-        <li><a class="footertext" class="footertext1">Forside</a></li>
-        <li><a class="footertext" class="footertext1">Shop Mænd</a></li>
-        <li><a class="footertext" class="footertext1">Shop Kvinder</a></li>
-        <li><a class="footertext" class="footertext1">Om os</a></li>
-    </br>
-        <li><a class="footertext" class="footertext1"><b>Hovedkvarter:</b></a></li>
-        <li><a class="footertext" class="footertext1">Havneparken 1, 6000 Kolding</a></li>
-    </br> 
-        <li><img src="img/gots-logo.svg" alt="GOTS"></li>
-    </br> 
-        <li><img src="img/trustpilot-logo.png" alt="Trustpilot" style="width: 96px;"></li>   
+    <div class="footerbox"><ul>
+        <li><a><b>Navigation:</b></a></li>
+        <li><a href="index.html" class="links">Forside</a></li>
+        <li><a>Shop Mænd</a></li>
+        <li><a>Shop Kvinder</a></li>
+        <li><a>Om os</a></li>
     </ul>
+    <br>
     <ul>
-        <li><a class="footertext" class="footertext2"><b>Kontaktoplysninger:</b></a></li>
-        <li><a class="footertext" class="footertext1">Tlf: XX XX XX XX</a></li>
-        <li><a class="footertext" class="footertext1">Mail: Mail@greywolf.dk</a></li>
-    </br>
-        <li><a class="footertext" class="footertext2"><b>Følg os:</b></a></li>
-    </br>
+        <li><a ><b>Hovedkvarter:</b></a></li>
+        <li><a href="https://maps.app.goo.gl/yYDAqSfbxBtYjLiz8" class="links" target="_blank">Havneparken 1, 6000 Kolding</a></li>
+    </ul>
+    <div>
+    <div class="footerlogo">
+        <img src="img/Trustpilot.png" alt="Trustpilot">
+    </div>
+    <div class="footerlogo">
+        <img src="img/GOTS.svg" alt="GOTS">
+    </div>
+    </div>
+    </div>
+    <div class="footerbox">
+    <ul>
+        <li><a><b>Kontaktoplysninger:</b></a></li>
+        <li><a href="tel: XXXX" class="links">Tlf: XX XX XX XX </a></li>
+        <li><a href="mailto: Mail@greywolf.dk" class="links" target="_blank">Mail: Mail@greywolf.dk</a></li>
+    </ul>
+    <br>
+    <ul>
+        <li><a><b>Følg os:</b></a></li>
     <div class="followus">
-        <img src="img/instagram-logo.png" alt="Instagram" class="smlogo">
-        <img src="img/facebook-logo.png" alt="Facebook" class="smlogo">
-        <img src="img/tiktok-logo.png" alt="TikTok" class="smlogo">
-    </div>
-    </br>
-    </br>
-        <li><a class="footertext" class="footertext2"><b>Betalingsmuligheder:</b></a></li>
-    </br>
+        <a href="https://www.facebook.com/" class="links" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="links" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/" class="links" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </div></ul>
+    <br>
+    <ul>
+        <li><a><b>Betalingsmuligheder:</b></a></li>
     <div class="payoptions">
-        <img src="img/mastercard-logo.png" alt="Mastercard" class="paylogo">
-        <img src="img/visa-logo.png" alt="Visa" class="paylogo">
-        <img src="img/dankort-logo.png" alt="Dankort" class="paylogo">
-        <img src="img/mobilepay-logo.png" alt="Mobilepay" class="paylogo">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-google-pay"></i>
+        <i class="fa-brands fa-cc-apple-pay"></i>
     </div>
-    </br>
     </ul>
+    </div>
     </div>
 </footer>
-
+</body>
 </html>

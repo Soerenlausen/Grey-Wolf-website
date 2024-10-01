@@ -101,13 +101,7 @@ main {
     background-color: #f5f5f5;
 }
 
-.heropic {
-    width: 100%;
-    min-width: 388px;
-    height: 23em;
-    object-fit: cover;
-}
-
+/* Hero */
 div.scrollgallery {
     display: grid inline;
     grid-auto-flow: column;
@@ -132,6 +126,13 @@ div.scrollgallery::-webkit-scrollbar {
     width: 100%;
 }
 
+.heropic {
+    width: 100%;
+    min-width: 388px;
+    height: 23em;
+    object-fit: cover;
+}
+
 .pic1text {
     position: relative;
     z-index: 1;
@@ -141,6 +142,24 @@ div.scrollgallery::-webkit-scrollbar {
     font-size: 1.313em;
     color: white;
     text-shadow: 1px 1px 12px black;
+}
+
+.movetonext {
+    width: 10.313em;
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(62, 77, 58, 0.7);
+    color: white;
+    padding: 0.313em;
+    border-radius: 10px;
+    bottom: 29em;
+    box-shadow: 1px 1px 8px black;
+    transition: 0.5s;
+    font-size: 0.938em;
+    float: right;
+    margin-right: 2em;
 }
   
 .pic2text {
@@ -153,15 +172,8 @@ div.scrollgallery::-webkit-scrollbar {
     text-align: center;
 }
 
-.pic3text {
-    position: relative;
-    z-index: 1;
-    margin-top: 11.563em;
-    bottom: 410px;
-    padding-left: 1.875em;
-    font-size: 1.313em;
-    color: white;
-    text-shadow: 1px 1px 12px black;
+.buttonalign {
+    text-align: center;
 }
 
 .CTAproces {
@@ -184,8 +196,15 @@ div.scrollgallery::-webkit-scrollbar {
     background-color: #81BC6E;
 }
 
-.buttonalign {
-    text-align: center;
+.pic3text {
+    position: relative;
+    z-index: 1;
+    margin-top: 11.563em;
+    bottom: 410px;
+    padding-left: 1.875em;
+    font-size: 1.313em;
+    color: white;
+    text-shadow: 1px 1px 12px black;
 }
 
 .CTA2 {
@@ -210,24 +229,7 @@ div.scrollgallery::-webkit-scrollbar {
     background-color: rgb(240, 155, 0);
 }
 
-.movetonext {
-    width: 10.313em;
-    position: relative;
-    z-index: 1;
-    border: none;
-    cursor: pointer;
-    background-color: rgba(62, 77, 58, 0.7);
-    color: white;
-    padding: 0.313em;
-    border-radius: 10px;
-    bottom: 29em;
-    box-shadow: 1px 1px 8px black;
-    transition: 0.5s;
-    font-size: 0.938em;
-    float: right;
-    margin-right: 2em;
-}
-
+/* Kvinde eller Mand */
 .genderchoose {
     display: flex;
     width: 100%;
@@ -248,25 +250,16 @@ div.scrollgallery::-webkit-scrollbar {
     max-height: 90%;
 }
 
-.men {
-    display: inline-block;
-    position: relative;
-    max-height: fit-content;
-    z-index: 1;
-    border: none;
+.menwomen {
+    width: 9.875em;
+    height: 20em;
     cursor: pointer;
-    background-color: #536F4A;
-    color: black;
-    padding-top: 0.313em;
-    padding-bottom: 0.313em;
-    padding-left: 2em;
-    padding-right: 2em;
     border-radius: 5px;
-    bottom: 17.8em;
-    left: 0.6em;
-    transition: 0.5s;
-    font-size: 1.188em;
-    color: white;
+}
+
+.menwomen:hover {
+    box-shadow: 1px 1px 5px black;
+    opacity: 90%;
 }
 
 .women {
@@ -290,21 +283,30 @@ div.scrollgallery::-webkit-scrollbar {
     color: white;
 }
 
-.menwomen {
-    width: 9.875em;
-    height: 20em;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.menwomen:hover {
-    box-shadow: 1px 1px 5px black;
-    opacity: 90%;
-}
-
 .women:hover {
     box-shadow: 1px 1px 5px black;
     background-color: #3e4d3a;
+}
+
+.men {
+    display: inline-block;
+    position: relative;
+    max-height: fit-content;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+    background-color: #536F4A;
+    color: black;
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5px;
+    bottom: 17.8em;
+    left: 0.6em;
+    transition: 0.5s;
+    font-size: 1.188em;
+    color: white;
 }
 
 .men:hover {
@@ -312,6 +314,7 @@ div.scrollgallery::-webkit-scrollbar {
     background-color: #3e4d3a;
 }
 
+/* Headline "Bæredygtighed" */
 .textbox {
     display: flex;
     width: 100%;
@@ -330,11 +333,7 @@ div.scrollgallery::-webkit-scrollbar {
     text-align: center;
 }
 
-.producttext {
-    margin-left: 0.625em;
-    color:black;
-}
-
+/* Populære produkter */
 div.scrollgallery2 {
     display: grid inline;
     grid-auto-flow: column;
@@ -354,15 +353,6 @@ div.scrollgallery2 a{
     display: inline-block;
 }
 
-.productpic {
-    height: 13.438em;
-    border-radius: 5px;
-}
-
-.productpic:hover {
-    box-shadow: 1px 1px 5px grey;
-}
-
 .productbox {
     display: inline-block;
     width: 9.375em;
@@ -372,11 +362,26 @@ div.scrollgallery2 a{
     padding-right: 0.5em;
 }
 
+.productpic {
+    height: 13.438em;
+    border-radius: 5px;
+}
+
+.producttext {
+    margin-left: 0.625em;
+    color:black;
+}
+
+.productpic:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+
 body div div i {
     font-weight: bold;
     font-size: 1.313em;
 }
 
+/* Vores Proces */
 .voresproces {
     float:left;
     font-size: 1.5em;

@@ -194,6 +194,10 @@ footer div ul {
     justify-content: center;
 }
 
+.trustlogo {
+    width: 10em;
+}
+
 .followus {
     display: inline-block;
     width: auto;

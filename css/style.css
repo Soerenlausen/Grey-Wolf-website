@@ -1,3 +1,4 @@
+/* Head */
 @font-face {
     font-family: "Plus Jakarta Sans", sans-serif;
     src: url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
@@ -11,22 +12,15 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-header{
-    position: absolute;
-    z-index: 100;
-}
-
+/* Body */
 body {
     background-color: #2e3a2b;
 }
 
-main {
-    background-image: 
-    url('/img/Dark green GW background Logo.svg');
-    background-repeat: repeat;
-    background-size: cover 500px;
-    background-position: top, 100px, 180px;
-    background-color: #f5f5f5;
+/* Header */
+header{
+    position: absolute;
+    z-index: 100;
 }
 
 .containerheader {
@@ -97,6 +91,16 @@ button[type="submit"]:hover {
     background-color: rgb(235, 235, 235);
 }
 
+/* Main */
+main {
+    background-image: 
+    url('/img/Dark green GW background Logo.svg');
+    background-repeat: repeat;
+    background-size: cover 500px;
+    background-position: top, 100px, 180px;
+    background-color: #f5f5f5;
+}
+
 .heropic {
     width: 100%;
     min-width: 388px;
@@ -158,68 +162,6 @@ div.scrollgallery::-webkit-scrollbar {
     font-size: 1.313em;
     color: white;
     text-shadow: 1px 1px 12px black;
-}
-
-.footercontainer {
-    display: flex;
-    width: 100%;
-    background-color: #3e4d3a;
-    column-count: 2;
-    justify-content: center;
-    padding-top: 1.25em;
-    line-height: 1.5em;
-}
-
-.footerbox {
-    display: flex;
-    
-    font-size: 0.938em;
-    color:white;
-    flex-wrap: wrap;
-}
-
-.links {
-    text-decoration: none;
-    color: white;
-}
-
-footer div ul {
-    list-style: none;
-    padding-left: 1.25em;
-    padding-right: 1.25em;
-    padding-bottom: 1.25em ;
-}
-
-.footerlogo {
-    display: flex;
-    height: 3em;
-    width: auto;
-    margin-bottom: 1.25em;
-    margin-left: 1.25em;
-    justify-content: center;
-}
-
-.trustlogo {
-    width: 10em;
-}
-
-.followus {
-    display: inline-block;
-    width: auto;
-    justify-content: space-evenly;
-    font-size: 1.5em;
-    padding-top: 0.5em;
-}
-
-.payoptions {
-    display: inline-block;
-    justify-content: space-evenly;
-    font-size: 1.4em;
-    padding-top: 0.5em;
-}
-
-div i {
-    padding-right: 0.1em;
 }
 
 .CTAproces {
@@ -461,4 +403,67 @@ body div div i {
 .blankbox {
     display: flex;
     height: 6.25em;
+}
+
+/* Footer */
+.footercontainer {
+    display: flex;
+    width: 100%;
+    background-color: #3e4d3a;
+    column-count: 2;
+    justify-content: center;
+    padding-top: 1.25em;
+    line-height: 1.5em;
+}
+
+.footerbox {
+    display: flex;
+    
+    font-size: 0.938em;
+    color:white;
+    flex-wrap: wrap;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
+
+.footerlogo {
+    display: flex;
+    height: 3em;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 1.25em;
+    justify-content: center;
+}
+
+.trustlogo {
+    width: 10em;
+}
+
+footer div ul {
+    list-style: none;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    padding-bottom: 1.25em ;
+}
+
+.followus {
+    display: inline-block;
+    width: auto;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+}
+
+.payoptions {
+    display: inline-block;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    padding-top: 0.5em;
+}
+
+div i {
+    padding-right: 0.1em;
 }

@@ -94,17 +94,18 @@ button[type="submit"]:hover {
 
 .heropic {
     width: 100%;
-    min-width: 385px;
+    min-width: 375px; /*ændret fra 385px*/
     height: 24em; /*ændret fra 23em*/
     object-fit: cover;
+    /*aspect-ratio*/
 }
 
 div.scrollgallery {
-    display: grid inline;
-    grid-auto-flow: column;
-    width: 100%;
+    /*display: grid inline;*/
+    /*grid-auto-flow: column;*/
+    /*aspect-ratio*/
     height: 24em; /*ændret fra 22.5em*/
-    margin-top: 9em;
+    margin-top: 11em;
     margin-bottom: 1.5em;
     overflow-y: clip;
     overflow-x: scroll;

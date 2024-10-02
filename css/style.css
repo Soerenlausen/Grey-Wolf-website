@@ -91,7 +91,7 @@ button[type="submit"]:hover {
     background-color: rgb(235, 235, 235);
 }
 
-/* Main */
+/* Main (index) */
 main {
     background-image: 
     url('/img/Dark green GW background Logo.svg');
@@ -122,7 +122,7 @@ div.scrollgallery::-webkit-scrollbar {
 }
 
 .herobox {
-    display: inline-block;;
+    display: inline-block;
     width: 100%;
 }
 

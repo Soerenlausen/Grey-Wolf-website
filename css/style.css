@@ -414,6 +414,15 @@ body div div i {
     height: 6.25em;
 }
 
+/* Main (Product Page) */
+.simproducttext {
+    font-size: 1.188em;
+    padding: 1.25em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 /* Footer */
 .footercontainer {
     display: flex;

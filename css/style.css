@@ -227,6 +227,7 @@ div.scrollgallery::-webkit-scrollbar {
     box-shadow: 1px 1px 8px black;
     transition: 0.5s;
     font-size: 1.188em;
+    text-align: center;
 }
 
 .CTA2:hover {

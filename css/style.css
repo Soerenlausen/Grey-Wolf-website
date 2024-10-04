@@ -460,7 +460,7 @@ main nav div a {
     justify-content: space-between;
 }
 
-h2 {
+.head2 {
     padding: 0.5em 0 0 0.8em;
 }
 
@@ -668,12 +668,13 @@ h1 {
 div.scrollgallery3 { 
     display: flex;
     flex-wrap: wrap;
+    column-count: 2;
     width: 100%;
     overflow-wrap: break-word;
     white-space: nowrap;
     font-size: 0.938em;
     justify-content: center;
-    column-gap: 1.8cap;
+    column-gap: 0.5em;
 }
 .productpic2 { 
     width: 160px;
@@ -682,7 +683,7 @@ div.scrollgallery3 {
 
 .productbox2 { 
     display: inline-block;
-    width: 185px;
+    width: 180px;
     text-align: center;
     padding-bottom: 1.5em;
 }
@@ -698,7 +699,6 @@ div.scrollgallery3 {
 .alignmorebutton {
     display: flex;
     justify-content: center;
-    padding-top: 3em;
 }
 
 /* Footer */

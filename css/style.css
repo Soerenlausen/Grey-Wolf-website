@@ -195,7 +195,7 @@ div.scrollgallery::-webkit-scrollbar {
 }
 
 .CTAproces:hover {
-    background-color: #81BC6E;
+    background-color: #468F2E;
 }
 
 .pic3text {
@@ -216,7 +216,7 @@ div.scrollgallery::-webkit-scrollbar {
     z-index: 1;
     border: none;
     cursor: pointer;
-    background-color: #81BC6E;
+    background-color: #468F2E;
     color: white;
     padding: 0.313em;
     border-radius: 5px;

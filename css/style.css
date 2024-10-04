@@ -273,7 +273,6 @@ div.scrollgallery::-webkit-scrollbar {
     border: none;
     cursor: pointer;
     background-color: #536F4A;
-    color: black;
     padding-top: 0.313em;
     padding-bottom: 0.313em;
     padding-left: 2em;
@@ -299,7 +298,6 @@ div.scrollgallery::-webkit-scrollbar {
     border: none;
     cursor: pointer;
     background-color: #536F4A;
-    color: black;
     padding-top: 0.313em;
     padding-bottom: 0.313em;
     padding-left: 2em;
@@ -414,6 +412,146 @@ body div div i {
 }
 
 /* Main (Product Page) */
+.blankfiller {
+    display: grid block;
+    height: 9em;
+}
+
+/* Brødkrummesti (Kerstine) */
+.brødkrummesti {
+    font-size: 0.7em;
+    text-decoration: none;
+    padding: 1.25em 0 1.5em 2em;
+}
+
+main nav div a {
+    color: grey;
+}
+
+/* Billeder (Kerstine) */
+.billedecontainer {
+    display: flex inline;
+    flex-direction: column;
+    column-count: 2;
+    column-width: auto;
+    width: 100%;
+    max-height: 375px;
+    flex-wrap: wrap;
+}
+.billede1 {
+    width: 225px;
+    object-fit: cover;
+}
+.billede2 {
+    width: 140px;
+    padding-bottom: 7px;
+    object-fit: cover;
+}
+.billede3 {
+    width: 140px;
+    object-fit: cover;
+}
+
+/* Titel (Kerstine) */
+.protitle {
+    display: flex inline;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2 {
+    padding: 0.5em 0 0 0.8em;
+}
+
+/* Pris (Kerstine) */
+h3 {
+    font-size: 1.8em;
+    padding: 0.8em 1em;
+    color: #468F2E;
+}
+
+.inlinebox {
+    display: flex inline;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.sizebox {
+    display: flex;
+    width: 10em;
+    height: 2.5em;
+    justify-content: space-between;
+    padding: 0 0 0 1.25em;
+}
+
+.sizebtn {
+    cursor: pointer;
+    height: fit-content;
+    background-color: white;
+    padding: 0.6em 0.6em;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 1px 1px 3px grey;
+}
+
+.sizebtn:hover {
+    border: 2px solid black;
+}
+
+.btnright {
+    float: right;
+    padding: 0 1.2em 0 0em;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #F2921D;
+    color: white;
+    padding: 0.7em 1em;
+    border-radius: 5px;
+}
+
+.colorpick {
+    padding: 1em 1.3em;
+}
+
+.inlineelement {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em 0;
+    column-gap: 1em;
+}
+
+.greenbtn {
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #3e4d3a;
+    border: 4px solid white;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.orangebtn {
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: #F2921D;
+    border-radius: 1rem;
+}
+
+.infoproduct {
+    padding: 1.25em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
 .simproducttext {
     font-size: 1.188em;
     padding: 1.25em;

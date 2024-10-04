@@ -631,9 +631,10 @@ nav a {
 } 
 
 .hero-image{
-    padding: 9em;
+    padding-top: 9em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mænd_stemningsbillede.png);
     height: 50vh;
+    min-height: 28em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -641,8 +642,8 @@ nav a {
 
 .hero-text {
     position: absolute;
-    top: 22em;
-    left: 2em;
+    top: 24em;
+    left: 1.2em;
     color: white;
 }
 
@@ -677,14 +678,21 @@ div.scrollgallery3 {
 .productpic2 { 
     width: 160px;
     border-radius: 5px;
-    margin: 1em;
 }
 
 .productbox2 { 
     display: inline-block;
     width: 185px;
     text-align: center;
+    padding-bottom: 1.5em;
+}
 
+.producttext2 {
+    padding-top: 0.3em;
+    color: #468F2E;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.313em;
 }
 
 .alignmorebutton {

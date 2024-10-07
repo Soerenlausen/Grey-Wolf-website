@@ -635,7 +635,7 @@ nav a {
     background-image: linear-gradient(rgba(60, 60, 60, 0.2), rgba(60, 60, 60, 0.2)), url(../img/mænd_stemningsbillede.png);
     height: 50vh;
     min-height: 28em;
-    background-position: center;
+    background-position: 0 3.5em;
     background-repeat: no-repeat;
     background-size: cover;
 }

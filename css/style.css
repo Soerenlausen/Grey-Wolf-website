@@ -660,10 +660,8 @@ h1 {
 }
 
 .seotext {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 5em;
-    padding-top: 5em;
+    text-align: center;
+    padding: 5em 1.1em 2em 1.1em;
 }
 div.scrollgallery3 { 
     display: flex;

@@ -632,7 +632,7 @@ nav a {
 
 .hero-image{
     padding-top: 9em;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mænd_stemningsbillede.png);
+    background-image: linear-gradient(rgba(60, 60, 60, 0.2), rgba(60, 60, 60, 0.2)), url(../img/mænd_stemningsbillede.png);
     height: 50vh;
     min-height: 28em;
     background-position: center;
